@@ -93,7 +93,7 @@ h2 { font-size: clamp(34px, 4vw, 52px); line-height: 1.16; font-weight: 600; mar
 .flip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 19px; margin-top: 38px; }
 .flip-card { min-width: 0; height: 352px; padding: 0; border: 0; background: transparent; perspective: 1100px; cursor: pointer; text-align: left; color: white; }
 .flip-inner { display: block; position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .75s cubic-bezier(.2,.7,.2,1); }
-.flip-card:hover .flip-inner, .flip-card:focus-visible .flip-inner, .flip-card.is-flipped .flip-inner { transform: rotateY(180deg); }
+.flip-card:focus-visible .flip-inner, .flip-card.is-flipped .flip-inner { transform: rotateY(180deg); }
 .flip-card:focus-visible { outline: 2px solid var(--saffron); outline-offset: 5px; }
 .flip-front, .flip-back { position: absolute; inset: 0; display: flex; flex-direction: column; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: hidden; }
 .flip-front { justify-content: end; padding: 24px; background-position: center; background-size: cover; }
@@ -762,4 +762,26 @@ html.large-text .teaching-note > p, html.large-text .topic-footnote { font-size:
   .quiz-reset { font-size: 11px; }
   .teaching-note, .topic-footnote { flex-direction: column; gap: 5px; padding: 14px; }
   .teaching-note > span, .topic-footnote > span { font-size: 9px; }
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+    .flip-card:hover .flip-inner { transform: rotateY(180deg); }
+}
+
+@media (max-width: 680px) {
+    .site-header {
+          height: auto;
+          min-height: calc(68px + env(safe-area-inset-top, 0px));
+          padding: env(safe-area-inset-top, 0px) max(6%, env(safe-area-inset-right, 0px)) 0 max(6%, env(safe-area-inset-left, 0px));
+    }
+    .site-nav { top: 100%; }
+    .footer-bottom { padding-bottom: calc(13px + env(safe-area-inset-bottom, 0px)); }
+}
+
+@media (pointer: coarse) {
+    .menu-toggle, .theme-toggle, .text-size-toggle { min-width: 44px; min-height: 44px; }
+    .quiz-choices button { min-height: 44px; }
+    .timer-preset { min-height: 44px; }
+    .timer-button { min-height: 48px; }
 }
