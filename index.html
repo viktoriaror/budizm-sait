@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Путешествие в мир буддизма: его идеи, традиции и простые практики осознанности."
+    />
+    <meta name="theme-color" content="#faf8f2" />
+    <title>Буддизм — просто</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Путь к себе — на главную">
+        <span class="brand-mark" aria-hidden="true">☸</span>
+        <span>Путь</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Главная навигация">
+        <a href="#about">О буддизме</a>
+        <a href="#teachings">Учение</a>
+        <a href="#traditions">Традиции</a>
+        <a href="#festivals">Праздники</a>
+        <a href="#eightfold">Путь</a>
+        <a href="#symbols">Символы</a>
+        <a href="#places">Буддизм в мире</a>
+        <a href="#daily">В жизни</a>
+        <a href="#myths">Мифы и факты</a>
+        <a class="nav-cta" href="#practice">Минута тишины <span>↗</span></a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" title="Включить тёмную тему">
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+      </button>
+      <button class="text-size-toggle" type="button" aria-pressed="false" aria-label="Увеличить размер текста" title="Увеличить размер текста">
+        <span aria-hidden="true">🐱</span>
+      </button>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Открыть меню"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> НЕБОЛЬШОЕ ПУТЕШЕСТВИЕ · БОЛЬШАЯ ТЕМА</span>
+          <h1>Путь к себе —<br />через <span>тишину.</span></h1>
+          <p>
+            Что такое буддизм — религия, философия или практика? Разберёмся
+            без сложных слов: через идеи, живые традиции и маленькие истории.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Начать путешествие <span>↓</span></a>
+            <a class="text-link" href="#teachings"><span class="play-icon">▶</span> Узнать главное</a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <span>Листай, открывай карточки и выбирай свой маршрут ↓</span>
+          </div>
+          <div class="hero-topics" aria-label="Темы сайта">
+            <a href="#teachings"><span>✳</span> Мудрость</a>
+            <a href="#traditions"><span>❋</span> Традиции</a>
+            <a href="#practice"><span>◌</span> Практика</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Буддийский храм в горах">
+          <div class="hero-image"></div>
+          <div class="image-wash"></div>
+          <div class="hero-badge">
+            <span class="badge-symbol">☸</span>
+            <span><strong>Начни с одного вдоха</strong><small>и просто будь здесь</small></span>
+          </div>
+          <span class="image-caption">НЕ СПЕШИ · СМОТРИ ВНИМАТЕЛЬНО</span>
+          <span class="hero-sun" aria-hidden="true"></span>
+          <div class="hero-image-note"><span>01</span><span>ДОРОГА<br />НАЧИНАЕТСЯ ЗДЕСЬ</span></div>
+          <span class="hero-art-ring" aria-hidden="true">☸</span>
+        </div>
+        <div class="hero-scroll" aria-hidden="true"><span></span> ЛИСТАЙТЕ ВНИЗ</div>
+      </section>
+
+      <section class="intro section-pad" id="about">
+        <div class="section-kicker"><span>01</span> · ЗНАКОМСТВО</div>
+        <div class="intro-grid">
+          <h2>Что, если счастье —<br />это <span>навык?</span></h2>
+          <div class="intro-copy">
+            <p>
+              Буддизм возник в Индии более 2 500 лет назад. Его основатель,
+              Сиддхартха Гаутама, искал способ понять природу страдания и
+              открыть дорогу к освобождению от него.
+            </p>
+            <p>
+              Это учение предлагает не верить на слово, а наблюдать, задавать
+              вопросы и проверять всё на собственном опыте.
+            </p>
+            <p>
+              Буддизм не сводится к одной школе или обряду: за века он обрёл
+              множество форм, сохранив интерес к вниманию, мудрости и состраданию.
+            </p>
+            <a class="arrow-link" href="#teachings">Познакомиться с учением <span>↗</span></a>
+          </div>
+        </div>
+        <div class="stats-row">
+          <div class="stat-item"><strong>2 500<span>+</span></strong><span>лет истории</span></div>
+          <div class="stat-item"><strong>4</strong><span>благородные истины</span></div>
+          <div class="stat-item"><strong>1</strong><span>шаг — прямо сейчас</span></div>
+          <div class="stat-aside">Не нужно менять себя.<br />Достаточно начать замечать.</div>
+        </div>
+      </section>
+
+      <section class="teachings section-pad" id="teachings">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker"><span>02</span> · ОСНОВА УЧЕНИЯ</div>
+            <h2>Четыре истины.<br /><span>Один ясный взгляд.</span></h2>
+          </div>
+          <p>Будда сравнивал свой путь с врачеванием: увидеть проблему, понять её причину и найти способ исцеления. Эта структура помогает разбирать трудности спокойно и последовательно.</p>
+        </div>
+        <div class="truth-grid">
+          <article class="truth-card">
+            <span class="truth-number">01</span><span class="truth-icon" aria-hidden="true">◌</span>
+            <h3>Есть неудовлетворённость</h3>
+            <p>В жизни есть перемены, потери и моменты, когда всё идёт не по плану.</p>
+            <span class="truth-word">ДУККХА</span>
+          </article>
+          <article class="truth-card">
+            <span class="truth-number">02</span><span class="truth-icon" aria-hidden="true">⌁</span>
+            <h3>У неё есть причины</h3>
+            <p>Цепляясь за непостоянное, мы усиливаем тревогу и разочарование.</p>
+            <span class="truth-word">ПРИЧИНА</span>
+          </article>
+          <article class="truth-card">
+            <span class="truth-number">03</span><span class="truth-icon" aria-hidden="true">☼</span>
+            <h3>Освобождение возможно</h3>
+            <p>Замечая привязанности, можно постепенно ослабить их влияние.</p>
+            <span class="truth-word">НИРОДХА</span>
+          </article>
+          <article class="truth-card">
+            <span class="truth-number">04</span><span class="truth-icon" aria-hidden="true">➝</span>
+            <h3>Есть путь к нему</h3>
+            <p>Осознанность, доброта и мудрость помогают двигаться к внутренней свободе.</p>
+            <span class="truth-word">ПУТЬ</span>
+          </article>
+        </div>
+        <div class="teaching-note"><span>ПРОСТОЙ ПРИМЕР</span><p>Если план меняется и мы расстраиваемся, можно заметить само переживание, понять, чего мы ожидали, и выбрать более бережный следующий шаг.</p></div>
+      </section>
+
+      <section class="traditions section-pad" id="traditions">
+        <div class="traditions-top">
+          <div>
+            <div class="section-kicker"><span>03</span> · РАЗНЫЕ ПУТИ</div>
+            <h2>Один свет.<br /><span>Много оттенков.</span></h2>
+          </div>
+          <p>Буддийские традиции складывались в разных странах и культурах. Они по-разному объясняют практику и используют собственные тексты, образы и обычаи. Нажми на карточку или наведи курсор, чтобы узнать больше.</p>
+        </div>
+        <div class="flip-grid">
+          <button class="flip-card" type="button" aria-pressed="false" aria-label="Тхеравада. Нажмите, чтобы узнать больше.">
+            <span class="flip-inner">
+              <span class="flip-front photo-theravada">
+                <span class="flip-label">01 / ТРАДИЦИЯ</span>
+                <span class="flip-title">Тхеравада</span>
+                <span class="flip-hint">Нажми, чтобы перевернуть <span>↻</span></span>
+              </span>
+              <span class="flip-back">
+                <span class="flip-back-icon">◉</span><span class="flip-back-tag">ПУТЬ СТАРЕЙШИХ</span>
+                <span class="flip-back-title">Тхеравада</span>
+                <span class="flip-back-text">Сосредоточена на ранних текстах, личной практике и развитии внимательности. Широко распространена в странах Юго-Восточной Азии.</span>
+                <span class="flip-back-more">ПЕРЕВЕРНИ ОБРАТНО ↗</span>
+              </span>
+            </span>
+          </button>
+          <button class="flip-card" type="button" aria-pressed="false" aria-label="Махаяна. Нажмите, чтобы узнать больше.">
+            <span class="flip-inner">
+              <span class="flip-front photo-mahayana">
+                <span class="flip-label">02 / ТРАДИЦИЯ</span>
+                <span class="flip-title">Махаяна</span>
+                <span class="flip-hint">Нажми, чтобы перевернуть <span>↻</span></span>
+              </span>
+              <span class="flip-back">
+                <span class="flip-back-icon">✺</span><span class="flip-back-tag">БОЛЬШОЙ ПУТЬ</span>
+                <span class="flip-back-title">Махаяна</span>
+                <span class="flip-back-text">Подчёркивает сострадание и стремление помогать всем живым существам. К этой широкой традиции относятся разные школы Восточной Азии.</span>
+                <span class="flip-back-more">ПЕРЕВЕРНИ ОБРАТНО ↗</span>
+              </span>
+            </span>
+          </button>
+          <button class="flip-card" type="button" aria-pressed="false" aria-label="Ваджраяна. Нажмите, чтобы узнать больше.">
+            <span class="flip-inner">
+              <span class="flip-front photo-vajrayana">
+                <span class="flip-label">03 / ТРАДИЦИЯ</span>
+                <span class="flip-title">Ваджраяна</span>
+                <span class="flip-hint">Нажми, чтобы перевернуть <span>↻</span></span>
+              </span>
+              <span class="flip-back">
+                <span class="flip-back-icon">❋</span><span class="flip-back-tag">АЛМАЗНЫЙ ПУТЬ</span>
+                <span class="flip-back-title">Ваджраяна</span>
+                <span class="flip-back-text">Использует особые медитативные практики, мантры и символы. Наиболее известна по тибетским буддийским школам.</span>
+                <span class="flip-back-more">ПЕРЕВЕРНИ ОБРАТНО ↗</span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="festivals section-pad" id="festivals">
+        <div class="festivals-heading">
+          <div>
+            <div class="section-kicker"><span>04</span> · ВРЕМЯ ПРАЗДНОВАТЬ</div>
+            <h2>Свет, который<br /><span>собирает вместе.</span></h2>
+          </div>
+          <p>Праздники в буддийских культурах — время добрых дел, семейных встреч и памяти о важных событиях жизни Будды.</p>
+        </div>
+        <div class="festival-feature">
+          <div class="festival-feature-photo" role="img" aria-label="Праздничные огни у буддийского храма"></div>
+          <div class="festival-feature-copy">
+            <span class="festival-date">ПОЛНОЛУНИЕ ВЕСНЫ · ВЕСАК</span>
+            <h3>День рождения,<br />пробуждения и ухода Будды</h3>
+            <p>Весак отмечают во многих странах Азии. Храмы украшают фонарями, люди приносят цветы и совершают добрые поступки. Для многих это ещё и день размышлений о щедрости, ненасилии и сострадании. Дата зависит от лунного календаря и местной традиции.</p>
+            <span class="festival-flower" aria-hidden="true">✿</span>
+          </div>
+        </div>
+        <div class="festival-list">
+          <article class="festival-item">
+            <div class="festival-thumb festival-thumb-lantern" role="img" aria-label="Бумажные фонари на вечернем празднике"></div>
+            <div class="festival-item-copy">
+              <span class="festival-date">ОСЕНЬ · КАТХИНА</span>
+              <h3>Время щедрости</h3>
+              <p>Община благодарит монахов и делает подношения после завершения сезона дождей.</p>
+            </div>
+            <button class="festival-arrow" type="button" aria-expanded="false" aria-controls="festival-kathina" aria-label="Подробнее о празднике Катхина">↗</button>
+            <p class="festival-extra" id="festival-kathina" hidden>В разных странах праздник отмечают по-своему: община собирается в храме, а подношение ткани монахам становится знаком поддержки и благодарности.</p>
+          </article>
+          <article class="festival-item">
+            <div class="festival-thumb festival-thumb-flags" role="img" aria-label="Цветные молитвенные флаги в горах"></div>
+            <div class="festival-item-copy">
+              <span class="festival-date">ЗИМА / ВЕСНА · ЛОСАР</span>
+              <h3>Тибетский Новый год</h3>
+              <p>Встречают новый цикл: наводят порядок, навещают близких и делятся пожеланиями.</p>
+            </div>
+            <button class="festival-arrow" type="button" aria-expanded="false" aria-controls="festival-losar" aria-label="Подробнее о празднике Лосар">↗</button>
+            <p class="festival-extra" id="festival-losar" hidden>Перед праздником принято убирать дом и готовить угощения. Затем семьи навещают друг друга и желают благополучия в новом году.</p>
+          </article>
+          <article class="festival-item">
+            <div class="festival-thumb festival-thumb-butter" role="img" aria-label="Тёплый золотой свет храмовых ламп"></div>
+            <div class="festival-item-copy">
+              <span class="festival-date">ЛЕТНЕЕ ПОЛНОЛУНИЕ · АСАЛХА-ПУДЖА</span>
+              <h3>Первое учение</h3>
+              <p>Праздник напоминает о первой проповеди Будды и начале буддийской общины.</p>
+            </div>
+            <button class="festival-arrow" type="button" aria-expanded="false" aria-controls="festival-asalha" aria-label="Подробнее о празднике Асалха-пуджа">↗</button>
+            <p class="festival-extra" id="festival-asalha" hidden>Согласно традиции, после первого учения Будды сформировалась община учеников. Праздник также открывает период Васса — сезона дождей и уединённой практики.</p>
+          </article>
+        </div>
+        <div class="festival-footnote"><span>✳</span> Даты и обычаи различаются в разных странах и школах — в этом богатство живых традиций.</div>
+      </section>
+
+      <section class="quote-strip" aria-label="Мысль дня">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p>Ты сам должен пройти этот путь;<br /><span>учителя лишь указывают дорогу.</span></p>
+        <span class="quote-credit">— ДХАММАПАДА</span>
+        <span class="quote-wheel" aria-hidden="true">☸</span>
+      </section>
+
+      <section class="extra-topic section-pad" id="eightfold">
+        <div class="extra-topic-heading">
+          <div>
+            <div class="section-kicker"><span>05</span> · ПРАКТИЧЕСКИЙ МАРШРУТ</div>
+            <h2>Восемь шагов.<br /><span>Не лестница, а круг.</span></h2>
+          </div>
+          <p>Восьмеричный путь — не список требований, а восемь связанных направлений практики. Нажми на пункт, чтобы прочитать пояснение.</p>
+        </div>
+        <div class="path-layout">
+          <div class="path-wheel" aria-hidden="true"><span>☸</span><small>СРЕДИННЫЙ<br />ПУТЬ</small></div>
+          <div class="path-items">
+            <details class="path-item"><summary><span>01</span><strong>Правильное понимание</strong><b>+</b></summary><p>Учиться видеть причины поступков и помнить о непостоянстве.</p></details>
+            <details class="path-item"><summary><span>02</span><strong>Правильное намерение</strong><b>+</b></summary><p>Развивать доброжелательность, сострадание и отказ от причинения вреда.</p></details>
+            <details class="path-item"><summary><span>03</span><strong>Правильная речь</strong><b>+</b></summary><p>Говорить правдиво, бережно и по делу; не разжигать ссоры.</p></details>
+            <details class="path-item"><summary><span>04</span><strong>Правильные поступки</strong><b>+</b></summary><p>Стараться действовать так, чтобы не причинять вреда себе и другим.</p></details>
+            <details class="path-item"><summary><span>05</span><strong>Правильный образ жизни</strong><b>+</b></summary><p>Выбирать занятия и способы заработка, согласующиеся с ненасилием.</p></details>
+            <details class="path-item"><summary><span>06</span><strong>Правильное усилие</strong><b>+</b></summary><p>Поддерживать полезные качества и мягко отпускать разрушительные привычки.</p></details>
+            <details class="path-item"><summary><span>07</span><strong>Правильная осознанность</strong><b>+</b></summary><p>Замечать тело, чувства и мысли такими, какие они есть сейчас.</p></details>
+            <details class="path-item"><summary><span>08</span><strong>Правильное сосредоточение</strong><b>+</b></summary><p>Тренировать устойчивое и спокойное внимание, в том числе в медитации.</p></details>
+          </div>
+        </div>
+        <p class="topic-footnote"><span>НА ЗАМЕТКУ</span> Восемь пунктов традиционно объединяют в группы мудрости, нравственного поведения и сосредоточения. Это взаимосвязанные направления, а не обязательные ступени.</p>
+      </section>
+
+      <section class="extra-topic symbols-section section-pad" id="symbols">
+        <div class="extra-topic-heading">
+          <div>
+            <div class="section-kicker"><span>06</span> · ЗНАКИ И СМЫСЛЫ</div>
+            <h2>Символы,<br /><span>которые рассказывают.</span></h2>
+          </div>
+          <p>У символов есть разные толкования в разных школах. Нажимай на карточки, чтобы открыть одно из распространённых значений.</p>
+        </div>
+        <div class="symbol-grid">
+          <button class="symbol-card" type="button" aria-pressed="false">
+            <span class="symbol-face"><span class="symbol-glyph">☸</span><strong>Колесо Дхармы</strong><small>НАЖМИ, ЧТОБЫ ОТКРЫТЬ</small></span>
+            <span class="symbol-detail"><span class="symbol-glyph">☸</span><strong>Колесо учения</strong><small>Восемь спиц часто связывают с восьмеричным путём. Колесо напоминает о передаче учения и движении практики.</small><em>НАЖМИ ЕЩЁ РАЗ ↻</em></span>
+          </button>
+          <button class="symbol-card" type="button" aria-pressed="false">
+            <span class="symbol-face"><span class="symbol-glyph">✿</span><strong>Лотос</strong><small>НАЖМИ, ЧТОБЫ ОТКРЫТЬ</small></span>
+            <span class="symbol-detail"><span class="symbol-glyph">✿</span><strong>Цветок лотоса</strong><small>Расцветая над водой, лотос стал образом пробуждения и возможности развиваться среди жизненных трудностей.</small><em>НАЖМИ ЕЩЁ РАЗ ↻</em></span>
+          </button>
+          <button class="symbol-card" type="button" aria-pressed="false">
+            <span class="symbol-face">
+              <svg class="symbol-glyph mandala-mark" viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="50" r="43" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <circle cx="50" cy="50" r="34" fill="none" stroke="currentColor" stroke-width="1.2" />
+                <circle cx="50" cy="50" r="24" fill="none" stroke="currentColor" stroke-width="1.2" />
+                <g fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(45 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(90 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(135 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(180 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(225 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(270 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(315 50 50)" />
+                </g>
+                <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <circle cx="50" cy="50" r="3" fill="currentColor" />
+              </svg>
+              <strong>Мандала</strong><small>НАЖМИ, ЧТОБЫ ОТКРЫТЬ</small>
+            </span>
+            <span class="symbol-detail">
+              <svg class="symbol-glyph mandala-mark" viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="50" r="43" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <circle cx="50" cy="50" r="34" fill="none" stroke="currentColor" stroke-width="1.2" />
+                <circle cx="50" cy="50" r="24" fill="none" stroke="currentColor" stroke-width="1.2" />
+                <g fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(45 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(90 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(135 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(180 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(225 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(270 50 50)" />
+                  <path d="M50 8 C58 20 58 29 50 38 C42 29 42 20 50 8Z" transform="rotate(315 50 50)" />
+                </g>
+                <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <circle cx="50" cy="50" r="3" fill="currentColor" />
+              </svg>
+              <strong>Узор мироздания</strong><small>В некоторых традициях мандала — карта мира и инструмент сосредоточения. Её детали рассматривают как единое целое.</small><em>НАЖМИ ЕЩЁ РАЗ ↻</em>
+            </span>
+          </button>
+          <button class="symbol-card" type="button" aria-pressed="false">
+            <span class="symbol-face"><span class="symbol-glyph">🪔</span><strong>Лампа</strong><small>НАЖМИ, ЧТОБЫ ОТКРЫТЬ</small></span>
+            <span class="symbol-detail"><span class="symbol-glyph">☼</span><strong>Свет знания</strong><small>Огонь лампы часто символизирует мудрость, которая рассеивает неведение, и служит подношением в храме.</small><em>НАЖМИ ЕЩЁ РАЗ ↻</em></span>
+          </button>
+        </div>
+        <p class="topic-footnote"><span>ВАЖНО</span> Значение символа может отличаться от школы к школе. Здесь собраны распространённые объяснения, а не единственная трактовка.</p>
+      </section>
+
+      <section class="extra-topic places-section section-pad" id="places">
+        <div class="extra-topic-heading">
+          <div>
+            <div class="section-kicker"><span>07</span> · КАРТА БУДДИЙСКОГО МИРА</div>
+            <h2>Путь проходит<br /><span>через страны и века.</span></h2>
+          </div>
+          <p>Из Индии учение распространялось по торговым путям, менялось вместе с языками и культурами — и становилось разным.</p>
+        </div>
+        <div class="places-grid">
+          <article class="place-card place-india"><span>01 · ИСТОКИ</span><div><h3>Индия и Непал</h3><p>Места жизни Будды и ранние центры учения.</p></div></article>
+          <article class="place-card place-southeast"><span>02 · ТХЕРАВАДА</span><div><h3>Шри-Ланка и ЮВА</h3><p>Храмы, монастырские общины и традиция ранних текстов.</p></div></article>
+          <article class="place-card place-tibet"><span>03 · ВАДЖРАЯНА</span><div><h3>Тибет и Гималаи</h3><p>Монастыри в горах, ритуальное искусство и философские школы.</p></div></article>
+          <article class="place-card place-japan"><span>04 · МАХАЯНА</span><div><h3>Китай и Япония</h3><p>Многообразие школ, храмовой архитектуры и созерцательных практик.</p></div></article>
+        </div>
+        <p class="topic-footnote"><span>ПУТЕШЕСТВИЕ УЧЕНИЯ</span> Торговые связи, переводы текстов и местные обычаи помогали буддизму распространяться и принимать новые формы.</p>
+      </section>
+
+      <section class="extra-topic daily-section section-pad" id="daily">
+        <div class="extra-topic-heading">
+          <div>
+            <div class="section-kicker"><span>08</span> · ПРАКТИКА В ЖИЗНИ</div>
+            <h2>Осознанность —<br /><span>это ещё и обычный день.</span></h2>
+          </div>
+          <p>Не обязательно часами сидеть в тишине. Выбери маленькое действие и попробуй сделать его с полным вниманием.</p>
+        </div>
+        <div class="daily-layout">
+          <div class="daily-photo" role="img" aria-label="Тихая тропа среди деревьев"></div>
+          <div class="daily-ideas">
+            <button class="daily-idea" type="button" aria-pressed="false"><span class="idea-check">○</span><span><strong>Один внимательный вдох</strong><small>Перед новым делом остановись на секунду.</small></span></button>
+            <button class="daily-idea" type="button" aria-pressed="false"><span class="idea-check">○</span><span><strong>Чай без спешки</strong><small>Заметь тепло чашки, запах и вкус первого глотка.</small></span></button>
+            <button class="daily-idea" type="button" aria-pressed="false"><span class="idea-check">○</span><span><strong>Доброе сообщение</strong><small>Напиши близкому человеку что-нибудь тёплое.</small></span></button>
+            <button class="daily-idea" type="button" aria-pressed="false"><span class="idea-check">○</span><span><strong>Слушать до конца</strong><small>В разговоре попробуй сначала просто услышать.</small></span></button>
+            <p class="daily-progress" aria-live="polite">Отметь то, что попробуешь сегодня: <strong>0 из 4</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="extra-topic quiz-section section-pad" id="myths">
+        <div class="extra-topic-heading">
+          <div>
+            <div class="section-kicker"><span>09</span> · ПРОВЕРЬ СЕБЯ</div>
+            <h2>Миф или факт?<br /><span>Решать тебе.</span></h2>
+          </div>
+          <p>Выбери ответ для каждого утверждения. После выбора появится короткое пояснение — без оценок, просто немного новых знаний.</p>
+        </div>
+        <div class="quiz-score" aria-live="polite">
+          <span class="quiz-score-mark" aria-hidden="true">✳</span>
+          <span class="quiz-score-text">Открыто фактов: <strong>0 из 4</strong></span>
+          <button class="quiz-reset" type="button" hidden>Начать заново ↻</button>
+        </div>
+        <div class="quiz-grid">
+          <article class="quiz-card" data-answer="myth">
+            <span class="quiz-number">01 / РАЗБИРАЕМСЯ</span>
+            <h3>Будда — бог-творец, которому поклоняются все буддисты.</h3>
+            <div class="quiz-choices" role="group" aria-label="Выбери: миф или факт">
+              <button type="button" data-choice="myth">Миф</button><button type="button" data-choice="fact">Факт</button>
+            </div>
+            <p class="quiz-feedback" aria-live="polite" hidden>Скорее миф: во многих буддийских школах Будду почитают как учителя и пробуждённого человека, а не как создателя мира.</p>
+          </article>
+          <article class="quiz-card" data-answer="fact">
+            <span class="quiz-number">02 / РАЗБИРАЕМСЯ</span>
+            <h3>Сострадание и стремление не причинять вред — важные идеи буддизма.</h3>
+            <div class="quiz-choices" role="group" aria-label="Выбери: миф или факт">
+              <button type="button" data-choice="myth">Миф</button><button type="button" data-choice="fact">Факт</button>
+            </div>
+            <p class="quiz-feedback" aria-live="polite" hidden>Факт: сострадание и бережное отношение к живым существам занимают важное место во многих буддийских традициях.</p>
+          </article>
+          <article class="quiz-card" data-answer="myth">
+            <span class="quiz-number">03 / РАЗБИРАЕМСЯ</span>
+            <h3>Все буддисты живут в монастырях и медитируют целыми днями.</h3>
+            <div class="quiz-choices" role="group" aria-label="Выбери: миф или факт">
+              <button type="button" data-choice="myth">Миф</button><button type="button" data-choice="fact">Факт</button>
+            </div>
+            <p class="quiz-feedback" aria-live="polite" hidden>Миф: большинство буддистов — миряне. Их повседневная жизнь, работа и практика сильно различаются.</p>
+          </article>
+          <article class="quiz-card" data-answer="fact">
+            <span class="quiz-number">04 / РАЗБИРАЕМСЯ</span>
+            <h3>Буддийские традиции отличаются в разных странах и культурах.</h3>
+            <div class="quiz-choices" role="group" aria-label="Выбери: миф или факт">
+              <button type="button" data-choice="myth">Миф</button><button type="button" data-choice="fact">Факт</button>
+            </div>
+            <p class="quiz-feedback" aria-live="polite" hidden>Факт: учение развивалось в разных культурах, поэтому обряды, языки, школы и повседневные обычаи не везде одинаковы.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="practice section-pad" id="practice">
+        <div class="practice-glow"></div>
+        <div class="practice-content">
+          <div class="section-kicker"><span>10</span> · МАЛЕНЬКАЯ ПРАКТИКА</div>
+          <span class="practice-lotus" aria-hidden="true">✿</span>
+          <h2>Побудь здесь.<br /><span>Хотя бы минуту.</span></h2>
+          <p>Устройся поудобнее. Сделай вдох. Заметь, как воздух входит и выходит. Не нужно ничего исправлять — просто побудь с этим.</p>
+          <div class="timer">
+            <span class="timer-display" aria-live="polite">01:00</span>
+            <div class="timer-presets" role="group" aria-label="Длительность практики">
+              <button class="timer-preset is-selected" type="button" data-minutes="1" aria-pressed="true">1 мин</button>
+              <button class="timer-preset" type="button" data-minutes="3" aria-pressed="false">3 мин</button>
+              <button class="timer-preset" type="button" data-minutes="5" aria-pressed="false">5 мин</button>
+            </div>
+            <button class="timer-button" type="button">Начать практику <span>→</span></button>
+            <span class="timer-status" aria-live="polite">ОДНА МИНУТА ДЛЯ СЕБЯ</span>
+          </div>
+          <span class="practice-credit">Выполнила Коваль Виктория <span>·</span> Преподаватель Дамфа Я. С.</span>
+        </div>
+        <div class="practice-side-note">ВДОХ · ВЫДОХ · ПОВТОРИТЬ</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-about">
+          <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">☸</span><span>Путь</span></a>
+          <p>Небольшое путешествие<br />к большому разговору с собой.</p>
+          <span class="footer-sun" aria-hidden="true">☼</span>
+        </div>
+        <div class="footer-column">
+          <span class="footer-heading">ИССЛЕДОВАТЬ</span>
+          <a href="#about">О буддизме</a>
+          <a href="#teachings">Четыре истины</a>
+          <a href="#traditions">Традиции</a>
+        </div>
+        <div class="footer-column">
+          <span class="footer-heading">НЕ СПЕША</span>
+          <a href="#festivals">Праздники</a>
+          <a href="#practice">Минута тишины</a>
+          <a href="#home">В начало страницы ↑</a>
+        </div>
+        <div class="footer-lotus" aria-hidden="true">❋</div>
+      </div>
+      <div class="footer-bottom">
+        <span>Выполнила Коваль Виктория <span class="footer-divider">·</span> Преподаватель Дамфа Я. С.</span>
+        <span>Познание начинается с внимания <span class="footer-divider">·</span> 2026</span>
+      </div>
+    </footer>
+  </body>
+</html>
