@@ -237,7 +237,7 @@ timerButton.addEventListener("click", () => {
     window.clearInterval(intervalId);
     intervalId = null;
     breathStartedAt = null;
-    timerButton.innerHTML = 'Продолжить <span>→</span>';
+    timerButton.innerHTML = 'Продолжить <span><svg class="arrow-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M2 8h12m0 0-4-4m4 4-4 4" /></svg></span>';
     timerStatus.textContent = "ПРАКТИКА НА ПАУЗЕ";
     return;
   }
@@ -258,7 +258,7 @@ timerButton.addEventListener("click", () => {
       window.clearInterval(intervalId);
       intervalId = null;
       breathStartedAt = null;
-      timerButton.innerHTML = 'Начать ещё раз <span>↻</span>';
+      timerButton.innerHTML = 'Начать ещё раз <span><svg class="arrow-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M12.5 5.5V2.8m0 2.7H9.8M12 5.7A5.5 5.5 0 1 0 13.3 9" /></svg></span>';
       timerStatus.textContent = "ЭТА МИНУТА — ТВОЯ";
     }
   }, 1000);
@@ -275,7 +275,7 @@ timerPresets.forEach((preset) => {
     remainingSeconds = selectedDuration;
     breathStartedAt = null;
     renderTimer();
-    timerButton.innerHTML = 'Начать практику <span>→</span>';
+    timerButton.innerHTML = 'Начать практику <span><svg class="arrow-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M2 8h12m0 0-4-4m4 4-4 4" /></svg></span>';
     timerStatus.textContent = `${minutes} ${minutes === 1 ? "МИНУТА" : "МИНУТЫ"} ДЛЯ СЕБЯ`;
     timerPresets.forEach((option) => {
       const isSelected = option === preset;
